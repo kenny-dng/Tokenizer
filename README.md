@@ -1,9 +1,8 @@
-# Tokenizer - 42 Blockchain project 
-
+# 42 project : Tokenizer
+## The DKCoin
 <div align="center">
   <img src="DKCoin.png" alt="DKCoin" width="400">
-   <h1>42 DKCoin</h1>
-<div align="center">
+</div>
 
 ## Implementation choices
 
