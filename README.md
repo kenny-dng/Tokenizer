@@ -1,5 +1,9 @@
-# Tokenizer
-42 Blockchain project 
+# Tokenizer - 42 Blockchain project 
+
+<div align="center">
+  <img src="DKCoin.png" alt="DKCoin" width="400">
+   <h1>42 DKCoin</h1>
+<div align="center">
 
 ## Implementation choices
 
@@ -56,17 +60,17 @@ In conclusion, I chose to create an **_ERC20_** token using the **_Remix IDE_**,
 ```bash
 tokenizer
 ├── code
-│   └── 42CL.sol
+│   └── 42DK.sol
 ├── deployment
-│   └── DEPLOYMENT.md
+│   └── README.md
 ├── documentation
-│   └── DOCUMENTATION.md
+│   └── README.md
 └── README.md
 ```
 
 ### File content
 
--   **_42CL.sol_**: This file contains the Solidity code for the ERC20 token.
+-   **_42DK.sol_**: This file contains the Solidity code for the ERC20 token.
 
 -   **_DEPLOYMENT.md_**: This file contains the requirents needed to deploy the ERC20 token on the Sepolia testnet using Remix IDE, MetaMask wallet, and Etherscan blockchain explorer.
 
