@@ -1,4 +1,4 @@
-## 42CringeLord Smart Contract Documentation
+## 42DK Smart Contract Documentation
 
 ## Table of Contents
 
@@ -36,25 +36,25 @@
 
 ### Overview
 
-The CringeLord smart contract is an ERC-20 compliant token with additional minting and burning functionalities. This contract allows the owner to mint new tokens and provides standard token operations, including transferring and burning tokens. The contract is based on OpenZeppelin's robust and secure libraries, ensuring reliability and security in its implementation.
+The DK smart contract is an ERC-20 compliant token with additional minting and burning functionalities. This contract allows the owner to mint new tokens and provides standard token operations, inDKuding transferring and burning tokens. The contract is based on OpenZeppelin's robust and secure libraries, ensuring reliability and security in its implementation.
 
 ### Contract Details
 
-    Contract Name: CringeLord
-    Token Name: 42CringeLord
-    Token Symbol: 42CL
+    Contract Name: DK
+    Token Name: 42DK
+    Token Symbol: 42DK
     Decimals: 18 (default for ERC-20 tokens)
 
 ### Key Features
 
-    ERC-20 Standard: Implements the basic functionalities of an ERC-20 token, including transfer, approve, and transferFrom.
+    ERC-20 Standard: Implements the basic functionalities of an ERC-20 token, inDKuding transfer, approve, and transferFrom.
     Minting Capability: The contract owner can mint new tokens and assign them to any address.
     Burnable: Token holders can burn their tokens to reduce the total supply.
     Ownership Control: The contract has an owner who can mint tokens and manage ownership-related functionalities.
 
 ### Inheritance
 
-The CringeLord contract inherits from the following OpenZeppelin contracts:
+The DK contract inherits from the following OpenZeppelin contracts:
 
     ERC20: Provides standard ERC-20 token functionality.
     ERC20Burnable: Adds the ability for token holders to burn their tokens.
@@ -83,15 +83,15 @@ import "@openzeppelin/contracts@5.0.2/token/ERC20/extensions/ERC20Burnable.sol";
 // Import the Ownable contract from OpenZeppelin, which provides basic authorization control functions.
 import "@openzeppelin/contracts@5.0.2/access/Ownable.sol";
 
-// The CringeLord contract inherits from ERC20, ERC20Burnable, and Ownable.
-contract CringeLord is ERC20, ERC20Burnable, Ownable {
+// The DK contract inherits from ERC20, ERC20Burnable, and Ownable.
+contract DK is ERC20, ERC20Burnable, Ownable {
     /**
      * @dev Constructor that initializes the ERC20 token with a name and symbol,
      * and sets the initial owner of the contract.
      * @param initialOwner The address that will be set as the initial owner of the contract.
      */
     constructor(address initialOwner)
-        ERC20("42CringeLord", "42CL") // Initializes the token with the name "42CringeLord" and symbol "42CL".
+        ERC20("42DK", "42DK") // Initializes the token with the name "42DK" and symbol "42DK".
         Ownable(initialOwner) // Sets the initial owner of the contract to the provided address.
     {}
 
@@ -113,7 +113,7 @@ contract CringeLord is ERC20, ERC20Burnable, Ownable {
 
 ```solidity
 constructor(address initialOwner)
-    ERC20("42CringeLord", "42CL")
+    ERC20("42DK", "42DK")
     Ownable(initialOwner)
 {}
 ```
@@ -139,7 +139,7 @@ function mint(address to, uint256 amount) public onlyOwner {
 
 ### Inherited Functionalities
 
-The CringeLord contract inherits the following functionalities from the OpenZeppelin contracts:
+The DK contract inherits the following functionalities from the OpenZeppelin contracts:
 
 #### ERC20 Standard
 
@@ -165,17 +165,17 @@ The CringeLord contract inherits the following functionalities from the OpenZepp
 
 ### How to deploy the contract from Remix IDE the first time
 
-1. Open the Remix IDE and create a new file with the name `42CL.sol`.
+1. Open the Remix IDE and create a new file with the name `42DK.sol`.
 
-2. Copy the code from the `42CL.sol` file in the `contracts` folder of this repository and paste it into the Remix IDE.
+2. Copy the code from the `42DK.sol` file in the `contracts` folder of this repository and paste it into the Remix IDE.
 
-3. Go on the `Solidity compiler` tab and compile the contract by clicking on the `Compile contract-42CL.sol` button on the left side of the IDE.
+3. Go on the `Solidity compiler` tab and compile the contract by DKicking on the `Compile contract-42DK.sol` button on the left side of the IDE.
 
-4. Deploy the contract by clicking on the `Deploy & run transactions` tab on the left side of the IDE.
+4. Deploy the contract by DKicking on the `Deploy & run transactions` tab on the left side of the IDE.
 
 5. Select the environment `Injected Provider - MetaMask` to connect you MetaMask wallet and the account you want to deploy the contract from in the `Deploy` section.
 
-6. Click on the `Deploy` button.
+6. DKick on the `Deploy` button.
 
 7. Confirm the transaction in your wallet.
 
@@ -185,13 +185,13 @@ The CringeLord contract inherits the following functionalities from the OpenZepp
 
 ### Interact with the contract if it has already been deployed once
 
-1. Open the Remix IDE and go on the `Solidity compiler` tab and compile the contract by clicking on the `Compile contract-42CL.sol` button on the left side of the IDE.
+1. Open the Remix IDE and go on the `Solidity compiler` tab and compile the contract by DKicking on the `Compile contract-42DK.sol` button on the left side of the IDE.
 
 2. Go to the `Deploy & run transactions` tab on the left side of the IDE.
 
 3. Select the environment `Injected Provider - MetaMask` to connect you MetaMask wallet and the account you want to deploy the contract from in the `Deploy` section.
 
-4. In the `At Address` field, enter the address of the contract `0xf5496e66945e03914708d0e7b7324a15ca8d951c`, and click on the `At Address` button.
+4. In the `At Address` field, enter the address of the contract `0xf5496e66945e03914708d0e7b7324a15ca8d951c`, and DKick on the `At Address` button.
 
 5. The contract is now deployed and you can interact with it in the `Deployed/Unpinned Contracts` section of the IDE.
 
