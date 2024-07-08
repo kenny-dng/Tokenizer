@@ -24,7 +24,7 @@ contract DK is ERC20, ERC20Burnable, Ownable {
      * @param initialOwner The address that will be set as the initial owner of the contract.
      */
     constructor(address initialOwner)
-        ERC20("42DK", "42DK") // Initializes the token with the name "42DK" and symbol "42CL".
+        ERC20("42DK", "42DK") // Initializes the token with the name "42DK" and symbol "42DK".
         Ownable(initialOwner) // Sets the initial owner of the contract to the provided address.
     {}
 

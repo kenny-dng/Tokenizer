@@ -36,7 +36,7 @@
 
 ### Overview
 
-The DK smart contract is an ERC-20 compliant token with additional minting and burning functionalities. This contract allows the owner to mint new tokens and provides standard token operations, inDKuding transferring and burning tokens. The contract is based on OpenZeppelin's robust and secure libraries, ensuring reliability and security in its implementation.
+The DK smart contract is an ERC-20 compliant token with additional minting and burning functionalities. This contract allows the owner to mint new tokens and provides standard token operations, including transferring and burning tokens. The contract is based on OpenZeppelin's robust and secure libraries, ensuring reliability and security in its implementation.
 
 ### Contract Details
 
@@ -47,7 +47,7 @@ The DK smart contract is an ERC-20 compliant token with additional minting and b
 
 ### Key Features
 
-    ERC-20 Standard: Implements the basic functionalities of an ERC-20 token, inDKuding transfer, approve, and transferFrom.
+    ERC-20 Standard: Implements the basic functionalities of an ERC-20 token, including transfer, approve, and transferFrom.
     Minting Capability: The contract owner can mint new tokens and assign them to any address.
     Burnable: Token holders can burn their tokens to reduce the total supply.
     Ownership Control: The contract has an owner who can mint tokens and manage ownership-related functionalities.
@@ -159,7 +159,7 @@ The DK contract inherits the following functionalities from the OpenZeppelin con
 
 ### Requirements
 
--   See [deployment/DEPLOYMENT.md](https://github.com/ThePush/tokenizer/blob/main/deployment/DEPLOYMENT.md)
+-   See [deployment/DEPLOYMENT.md](https://github.com/kenny-dng/Tokenizer/blob/main/deployment/README.md)
 
 ##
 
@@ -169,13 +169,13 @@ The DK contract inherits the following functionalities from the OpenZeppelin con
 
 2. Copy the code from the `42DK.sol` file in the `contracts` folder of this repository and paste it into the Remix IDE.
 
-3. Go on the `Solidity compiler` tab and compile the contract by DKicking on the `Compile contract-42DK.sol` button on the left side of the IDE.
+3. Go on the `Solidity compiler` tab and compile the contract by clicking on the `Compile contract/42DK.sol` button on the left side of the IDE.
 
-4. Deploy the contract by DKicking on the `Deploy & run transactions` tab on the left side of the IDE.
+4. Deploy the contract by clicking on the `Deploy & run transactions` tab on the left side of the IDE.
 
 5. Select the environment `Injected Provider - MetaMask` to connect you MetaMask wallet and the account you want to deploy the contract from in the `Deploy` section.
 
-6. DKick on the `Deploy` button.
+6. Click on the `Deploy` button.
 
 7. Confirm the transaction in your wallet.
 
@@ -185,13 +185,13 @@ The DK contract inherits the following functionalities from the OpenZeppelin con
 
 ### Interact with the contract if it has already been deployed once
 
-1. Open the Remix IDE and go on the `Solidity compiler` tab and compile the contract by DKicking on the `Compile contract-42DK.sol` button on the left side of the IDE.
+1. Open the Remix IDE and go on the `Solidity compiler` tab and compile the contract by clicking on the `Compile contract/42DK.sol` button on the left side of the IDE.
 
 2. Go to the `Deploy & run transactions` tab on the left side of the IDE.
 
 3. Select the environment `Injected Provider - MetaMask` to connect you MetaMask wallet and the account you want to deploy the contract from in the `Deploy` section.
 
-4. In the `At Address` field, enter the address of the contract `0xf5496e66945e03914708d0e7b7324a15ca8d951c`, and DKick on the `At Address` button.
+4. In the `At Address` field, enter the address of the contract `0xE3996F4E094471342AE1EF51F59F01b898C709da`, and Click on the `At Address` button.
 
 5. The contract is now deployed and you can interact with it in the `Deployed/Unpinned Contracts` section of the IDE.
 
