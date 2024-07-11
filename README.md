@@ -1,16 +1,45 @@
 # 42 project : Tokenizer
-## The DKCoin
-<div align="center">
-  <img src="DKCoin.png" alt="DKCoin" width="400">
-</div>
+
+## Introduction
+### Qu’est-ce qu’une crypto-monnaie ?
+
+Les crypto monnaies sont des monnaies numériques qui utilisent la cryptographie pour sécuriser les transactions et contrôler la création de nouvelles unités.
+
+Elles sont décentralisées et fonctionnent sur une technologie appelée blockchain, qui est essentiellement un registre public de toutes les transactions effectuées.
+
+### Qu’est-ce que la cryptographie ?
+
+Concrètement, la cryptographie est une méthode visant à protéger des informations et communications en utilisant des clés de chiffrement. Voyez ici une méthode de dissimuler une information exceptée pour les personnes possédant cette clé (souvent les destinataires du message) qui leur permettrait de déchiffrer celui-ci. Dans le contexte de l’informatique, la cryptographie, fait référence à des techniques d’information et de communication sécurisées dérivées d 'lgorithmes utilisés pour chiffrer un message et donc le rendre très difficile, voire impossible, à déchiffrer.
+
+Cette cryptographie moderne se base sur quatre grands piliers qui sont respectivement :
+
+- La confidentialité : L'information ne peut être comprise que par la personne à qui elle est destinée
+
+- L'intégrité : l'information ne peut pas être altérée ou modifiée lors de son stockage ou de son transit entre l'expéditeur et le destinataire sans que cette altération ne soit détectée.
+
+- La non-répudiation : Le destinataire ou l’expéditeur de l’information ne peut pas nier ses intentions après avoir effectué la transmission ou l’expédition de l’information.
+
+- Authentification : L'expéditeur et le destinataire peuvent confirmer l'identité de l'autre et l'origine / destination de l'information.
+
+
+### Token vs Coin : Quelle est la différence ?
+
+Il y a deux principaux types de crypto monnaies :
+- Les monnaies (coins) comme Bitcoin (BTC) ou Ethereum (ETH), ont leur propre blockchain indépendante
+- Les jetons (tokens), en revanche, dépendent de la blockchain d'une autre crypto monnaie.
+
+Par exemple, les jetons ERC-20 dépendent de la blockchain Ethereum, les jetons SLP de la blockchain Solana, etc.
+
+Les cryptos servent à payer des transactions, interagir avec des contrats intelligents ou encore de récompenser les mineurs ou les validateurs qui sécurisent le réseau et vérifient les transactions. 
+
+
+
 
 ## Implementation choices
 
 ### Why I chose Ethereum over other blockchain platforms
 
--   Ethereum is the **_most popular blockchain platform_** for creating smart contracts and decentralized applications.
--   Other blockchain platforms, such as Bitcoin and Binance Smart Chain, do not support smart contracts or have limited support for smart contracts.
--   Ethereum has a large and active developer community, making it easy to find resources and support for creating smart contracts and decentralized applications.
+
 
 ### Why I chose ERC20 over other token standards
 
@@ -24,7 +53,9 @@
 
 ### Why I chose Solidity as the programming language
 
--   Solidity is a **_high-level programming language_** that is specifically designed for writing smart contracts on the Ethereum network.
+-   Solidity is a **_contract-oriented, high-level language for implementing smart contracts_** that is specifically designed for writing smart contracts on the Ethereum network. It was influenced by C++, Python and JavaScript and is designed to target the Ethereum Virtual Machine (EVM).
+
+Solidity is statically typed, supports inheritance, libraries and complex user-defined types among other features.
 
 ### Why I chose to deploy with Remix IDE
 

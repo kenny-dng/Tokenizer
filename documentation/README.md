@@ -1,4 +1,7 @@
 ## 42DK Smart Contract Documentation
+<div align="center">
+  <img src="DKCoin.png" alt="DKCoin" width="400">
+</div>
 
 ## Table of Contents
 
@@ -36,7 +39,9 @@
 
 ### Overview
 
-The DK smart contract is an ERC-20 compliant token with additional minting and burning functionalities. This contract allows the owner to mint new tokens and provides standard token operations, including transferring and burning tokens. The contract is based on OpenZeppelin's robust and secure libraries, ensuring reliability and security in its implementation.
+The DK smart contract is an ERC-20 compliant token with additional minting and burning functionalities. 
+This contract allows the owner to mint new tokens and provides standard token operations, including transferring and burning tokens.
+The contract is based on OpenZeppelin's robust and secure libraries, ensuring reliability and security in its implementation.
 
 ### Contract Details
 
