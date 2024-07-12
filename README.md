@@ -1,12 +1,12 @@
 # 42 project Tokenizer
 # Introduction
-### Qu’est-ce qu’une crypto-monnaie ?
+## Qu’est-ce qu’une crypto-monnaie ?
 
 Les crypto monnaies sont des monnaies numériques qui utilisent la cryptographie pour sécuriser les transactions et contrôler la création de nouvelles unités.
 
 Elles sont décentralisées et fonctionnent sur une technologie appelée blockchain, qui est essentiellement un registre public de toutes les transactions effectuées.
 
-### Qu’est-ce que la cryptographie ?
+## Qu’est-ce que la cryptographie ?
 
 Concrètement, la cryptographie est une méthode visant à protéger des informations et communications en utilisant des clés de chiffrement. Voyez ici une méthode de dissimuler une information exceptée pour les personnes possédant cette clé (souvent les destinataires du message) qui leur permettrait de déchiffrer celui-ci. Dans le contexte de l’informatique, la cryptographie, fait référence à des techniques d’information et de communication sécurisées dérivées d 'lgorithmes utilisés pour chiffrer un message et donc le rendre très difficile, voire impossible, à déchiffrer.
 
@@ -20,8 +20,7 @@ Cette cryptographie moderne se base sur quatre grands piliers qui sont respectiv
 
 - Authentification : L'expéditeur et le destinataire peuvent confirmer l'identité de l'autre et l'origine / destination de l'information.
 
-
-### Token vs Coin : Quelle est la différence ?
+## Token vs Coin : Quelle est la différence ?
 
 Il y a deux principaux types de crypto monnaies :
 - Les monnaies (coins) comme Bitcoin (BTC) ou Ethereum (ETH), ont leur propre blockchain indépendante
