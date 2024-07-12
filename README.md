@@ -1,34 +1,40 @@
-# 42 project Tokenizer
+# Tokenizer
+This 42 project aim to learn the basics in web3. I have to create my personal token!
+
 # Introduction
-## Qu’est-ce qu’une crypto-monnaie ?
+## What is Cryptocurrency ?
 
-Les crypto monnaies sont des monnaies numériques qui utilisent la cryptographie pour sécuriser les transactions et contrôler la création de nouvelles unités.
+Cryptocurrencies are digital currencies that use cryptography to secure transactions and control the creation of new units.
 
-Elles sont décentralisées et fonctionnent sur une technologie appelée blockchain, qui est essentiellement un registre public de toutes les transactions effectuées.
+They are decentralized and run on a technology called blockchain, which is essentially a public ledger of all transactions made.
 
-## Qu’est-ce que la cryptographie ?
+## What is cryptography ?
 
-Concrètement, la cryptographie est une méthode visant à protéger des informations et communications en utilisant des clés de chiffrement. Voyez ici une méthode de dissimuler une information exceptée pour les personnes possédant cette clé (souvent les destinataires du message) qui leur permettrait de déchiffrer celui-ci. Dans le contexte de l’informatique, la cryptographie, fait référence à des techniques d’information et de communication sécurisées dérivées d 'lgorithmes utilisés pour chiffrer un message et donc le rendre très difficile, voire impossible, à déchiffrer.
+ Cryptography is a method of protecting information and communications using encryption keys : hiding information except for people with this key which would allow them to decrypt it.
+ 
+ In the context of computing, cryptography refers to secure information and communication techniques derived from algorithms used to encrypt a message and therefore make it very difficult, or even impossible, to decipher.
 
-Cette cryptographie moderne se base sur quatre grands piliers qui sont respectivement :
+This modern cryptography is based on four main pillars which are respectively:
 
-- La confidentialité : L'information ne peut être comprise que par la personne à qui elle est destinée
+- Confidentiality: Information can only be understood by the person for whom it is intended
 
-- L'intégrité : l'information ne peut pas être altérée ou modifiée lors de son stockage ou de son transit entre l'expéditeur et le destinataire sans que cette altération ne soit détectée.
+- Integrity: the information cannot be altered or modified during its storage or transit between the sender and the recipient without this alteration being detected.
 
-- La non-répudiation : Le destinataire ou l’expéditeur de l’information ne peut pas nier ses intentions après avoir effectué la transmission ou l’expédition de l’information.
+- No repudiation: The recipient or sender of the information cannot deny his intentions after having transmitted or sent the information.
 
-- Authentification : L'expéditeur et le destinataire peuvent confirmer l'identité de l'autre et l'origine / destination de l'information.
+- Authentication: The sender and recipient can confirm each other's identity and the origin/destination of the information.
 
-## Token vs Coin : Quelle est la différence ?
+## Token vs Coin
 
-Il y a deux principaux types de crypto monnaies :
-- Les monnaies (coins) comme Bitcoin (BTC) ou Ethereum (ETH), ont leur propre blockchain indépendante
-- Les jetons (tokens), en revanche, dépendent de la blockchain d'une autre crypto monnaie.
+There are two main types of cryptocurrencies:
 
-Par exemple, les jetons ERC-20 dépendent de la blockchain Ethereum, les jetons SLP de la blockchain Solana, etc.
+- Currencies (coins) like Bitcoin (BTC) or Ethereum (ETH), have their own independent blockchain
 
-Les cryptos servent à payer des transactions, interagir avec des contrats intelligents ou encore de récompenser les mineurs ou les validateurs qui sécurisent le réseau et vérifient les transactions. 
+- Tokens, on the other hand, depend on the blockchain of another cryptocurrency.
+
+For example, ERC-20 tokens depend on the Ethereum blockchain, SLP tokens on the Solana blockchain, etc.
+
+Cryptos are used to pay for transactions, interact with smart contracts or even reward miners or validators who secure the network and verify transactions.
 
 
 ###
