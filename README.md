@@ -1,6 +1,5 @@
-# 42 project : Tokenizer
-
-## Introduction
+# 42 project Tokenizer
+# Introduction
 ### Qu’est-ce qu’une crypto-monnaie ?
 
 Les crypto monnaies sont des monnaies numériques qui utilisent la cryptographie pour sécuriser les transactions et contrôler la création de nouvelles unités.
@@ -33,6 +32,7 @@ Par exemple, les jetons ERC-20 dépendent de la blockchain Ethereum, les jetons 
 Les cryptos servent à payer des transactions, interagir avec des contrats intelligents ou encore de récompenser les mineurs ou les validateurs qui sécurisent le réseau et vérifient les transactions. 
 
 
+###
 
 
 ## Implementation choices
