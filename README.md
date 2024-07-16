@@ -1,5 +1,15 @@
 # Tokenizer
 
+This 42 project aim to learn the basics in web3. I have to create my personal token!
+
+Web3, also called decentralized web or Web 3.0, is the next generation of the Internet, which aims to create a decentralized and distributed network, based on blockchain technology.
+
+Web3 is distinct from today's Web 2.0, which is dominated by centralized platforms such as Google, Facebook and Amazon, which control user data and interactions. In Web 3, users own their data and can interact directly with each other without intermediaries.
+
+Web3 is based on decentralized protocols, such as blockchain, peer-to-peer networks and distributed storage systems, which enable the creation of decentralized applications (dApps) and services that are not controlled by a single entity . dApps can be used for a wide variety of use cases, such as decentralized finance (DeFi), predictive markets, decentralized social networks, and much more.
+
+Overall, Web3 aims to create a more open, transparent and fair Internet, where users have greater control over their data and privacy, and where applications and services are more resistant to censorship and abuse. break time.
+
 ## File structure
 
 ```bash
@@ -23,16 +33,6 @@ tokenizer
 
 -   **_README.md_**: This file contains the introduction to the project and the implementation choices.
 
-## Presentation
-This 42 project aim to learn the basics in web3. I have to create my personal token!
-
-Web3, also called decentralized web or Web 3.0, is the next generation of the Internet, which aims to create a decentralized and distributed network, based on blockchain technology.
-
-Web3 is distinct from today's Web 2.0, which is dominated by centralized platforms such as Google, Facebook and Amazon, which control user data and interactions. In Web 3, users own their data and can interact directly with each other without intermediaries.
-
-Web3 is based on decentralized protocols, such as blockchain, peer-to-peer networks and distributed storage systems, which enable the creation of decentralized applications (dApps) and services that are not controlled by a single entity . dApps can be used for a wide variety of use cases, such as decentralized finance (DeFi), predictive markets, decentralized social networks, and much more.
-
-Overall, Web3 aims to create a more open, transparent and fair Internet, where users have greater control over their data and privacy, and where applications and services are more resistant to censorship and abuse. break time.
 
 # Introduction
 ## What is Cryptocurrency ?
