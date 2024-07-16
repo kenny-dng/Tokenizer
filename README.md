@@ -1,4 +1,29 @@
 # Tokenizer
+
+## File structure
+
+```bash
+tokenizer
+├── code
+│   └── 42DK.sol
+├── deployment
+│   └── README.md
+├── documentation
+│   └── README.md
+└── README.md
+```
+
+## File content
+
+-   **_42DK.sol_**: This file contains the Solidity code for the ERC20 token.
+
+-   **_DEPLOYMENT.md_**: This file contains the requirents needed to deploy the ERC20 token on the Sepolia testnet using Remix IDE, MetaMask wallet, and Etherscan blockchain explorer.
+
+-   **_DOCUMENTATION.md_**: This file contains the documentation for the ERC20 token, including the token name, symbol, total supply, and other details as well as the instructions for deploying the ERC20 token on the Sepolia testnet using Remix IDE.
+
+-   **_README.md_**: This file contains the introduction to the project and the implementation choices.
+
+## Presentation
 This 42 project aim to learn the basics in web3. I have to create my personal token!
 
 Web3, also called decentralized web or Web 3.0, is the next generation of the Internet, which aims to create a decentralized and distributed network, based on blockchain technology.
@@ -72,7 +97,6 @@ However, to support complex smart contracts, a blockchain must be able to proces
 ## Why I chose Ethereum over other blockchain platforms
 
 -   Ethereum is the **_most popular blockchain platform_** for creating smart contracts and decentralized applications.
--   Other blockchain platforms, such as Bitcoin and Binance Smart Chain, do not support smart contracts or have limited support for smart contracts.
 -   Ethereum has a large and active developer community, making it easy to find resources and support for creating smart contracts and decentralized applications.
 
 
@@ -115,30 +139,3 @@ Solidity is statically typed, supports inheritance, libraries and complex user-d
 ## Conclusion
 
 In conclusion, I chose to create an **_ERC20_** token using the **_Remix IDE_**, deploy it on the **_Sepolia_** testnet, and interact with it using the **_MetaMask_** wallet and the **_Etherscan_** blockchain explorer because they are all easy to use, reliable, and secure tools that make it easy to create, deploy, and interact with smart contracts on the Ethereum network.
-
-**Keep It Simple, Stupid**
-
-##
-
-### File structure
-
-```bash
-tokenizer
-├── code
-│   └── 42DK.sol
-├── deployment
-│   └── README.md
-├── documentation
-│   └── README.md
-└── README.md
-```
-
-### File content
-
--   **_42DK.sol_**: This file contains the Solidity code for the ERC20 token.
-
--   **_DEPLOYMENT.md_**: This file contains the requirents needed to deploy the ERC20 token on the Sepolia testnet using Remix IDE, MetaMask wallet, and Etherscan blockchain explorer.
-
--   **_DOCUMENTATION.md_**: This file contains the documentation for the ERC20 token, including the token name, symbol, total supply, and other details as well as the instructions for deploying the ERC20 token on the Sepolia testnet using Remix IDE.
-
--   **_README.md_**: This file contains the introduction to the project and the implementation choices.
