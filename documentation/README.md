@@ -1,6 +1,6 @@
 ## 42DK Smart Contract Documentation
 <div align="center">
-  <img src="DKToekn.png" alt="DK Token" width="400">
+  <img src="DKToken.png" alt="DK Token" width="400">
 </div>
 
 ## Table of Contents
